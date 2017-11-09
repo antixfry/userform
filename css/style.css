@@ -1,0 +1,143 @@
+body {
+  background-color: #6853ca;
+  font-family: Yanone Kaffeesatz;
+}
+.form-wrapper {
+  background-color: #ffffff;
+  margin-top: 50px;
+  border-radius: 6px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.form-wrapper h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+/*Forms*/
+
+.user-form input {
+  margin-bottom: 20px;
+}
+.form-control {
+  border: 1px solid #b7b7b7;
+  padding: 30px 20px 20px 20px;
+  height: 48px;
+  color: #b7b7b7;
+  font-size: 20px;
+}
+.form-control-feedback {
+  top: 5px;
+  color: #b7b7b7;
+}
+.form-group .notice {
+  position: absolute;
+  right: -20px;
+  top: 15px;
+  color: #c35159;
+  font-weight: 700;
+  font-size: 19px;
+}
+.form-group label {
+  position: absolute;
+  top: 2px;
+  left: 20px;
+  color: #b7b7b7;
+}
+
+/*Parts*/
+
+.part1 .image {
+  text-align: left;
+}
+.part1 .image img {
+  width: 100%;
+}
+.part1 ol {
+  margin-top: 15px;
+}
+.part1 ol li {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.part3 {
+  margin-bottom: 20px;
+}
+.part2 .upload {
+  background-color: #ffc83a;
+  text-align: center;
+  padding: 20px;
+  margin-right: -40px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.part2 .upload .inner {
+  text-align: center;
+  padding: 50px;
+  border: 1px dashed #ffffff;
+  width: 100%;
+  border-radius: 6px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.part3 .assign {
+  width: 25px;
+  height: 25px;
+  background-image: url(uniformjs.com/images/sprite.png);
+}
+
+/*Checks*/
+
+.checkbox {
+  color: #5f5a5e;
+  font-size: 20px;
+}
+.checkbox input[type=checkbox], label.checkbox-inline input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    pointer-events: none;
+}
+.checkbox .checkbox-material, label.checkbox-inline .checkbox-material {
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+}
+.checkbox .checkbox-material .check, label.checkbox-inline .checkbox-material .check {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #aeb4b0;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1;
+}
+.check-item {
+  width: 30px;
+  float: left;
+}
+.checkbox-text {
+  font-size: 18px;
+}
+
+/*Buttons*/
+
+#success {
+  width: 100%;
+  background-color: #2428ae;
+  border: 0px;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
